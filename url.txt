@@ -1,0 +1,2 @@
+URL Dashboard: https://public.tableau.com/app/profile/hafizal.shakur/viz/StrokeDataset_17393687131460/Dashboard1
+URL Dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download
