@@ -2,24 +2,30 @@
 
 ## Repository Outline
 
-Penjelasan Mengenai Isi dari Tiap File dan Folder:
+Explanation about the content of each file and folder:
 
-1. data_processing.ipynb - Notebook yang berisi pengolahan data, exploratory data analysis, dan data saving.
-2. data_stroke_cleaned.csv - Dataset yang sudah dibersihkan
-3. healthcare-dataset-stroke-data.csv - Raw dataset
-4. url.txt - File yang berisikan url Dataset dan url Dashboard
+1. data_processing.ipynb - Notebook containing data processing, exploratory data analysis, and data saving.
+2. data_stroke_cleaned.csv - The dataset that has been cleaned.
+3. healthcare-dataset-stroke-data.csv - The raw dataset.
+4. url.txt - File containing the Dataset URL and Dashboard URL.
 
 ## Project Output
 
-Produk yang dihasilkan dari proyek ini adalah sebuah Dashboard dibuat menggunakan Tableau Public
+The product generated from this project is a Data Dashboard created using Tableau Public.
+
+## Problem Background
+
+Stroke is one of the leading causes of death and long-term disability worldwide. Many factors contribute to the risk of a stroke, such as age, gender, and existing health conditions like heart disease or hypertension. Understanding these patterns is very important for early prevention.
+
+This project aims to analyze patient data to find trends and risk factors associated with strokes. By visualizing this data, we can see which groups are more vulnerable and provide better insights for health awareness.
 
 ## Data
 
-Dataset didapatkan dari website kaggle.com dimana data tersebut terdiri atas 5110 baris dan 12 kolom. Dataset tidak memliki missing value hanya saja data tersebut merupakan data imbalanced berdasarkan jumlah pengidap stroke.
+The dataset was obtained from the kaggle.com website. It consists of 5,110 rows and 12 columns. The dataset does not have missing values; however, the data is imbalanced based on the number of stroke patients compared to non-stroke patients.
 
 ## Method
 
-Proyek ini menggunakan bantuan pandas untuk melakukan data cleaning dan wrangling. Selanjutnya, dilakukan visualisasi menggunakan library matplotlib dan seaborn. Setelah selesai melakukan cleaning, kemudian dataset disimpan dalam bentuk CSV untuk dibuatkan Dashboard oleh Tableau.
+This project uses pandas to perform data cleaning and wrangling. Furthermore, data visualization was done using the matplotlib and seaborn libraries. After finishing the cleaning process, the dataset was saved in CSV format to be used for creating the Dashboard in Tableau.
 
 ## Stacks
 
